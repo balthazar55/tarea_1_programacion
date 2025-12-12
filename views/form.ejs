@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Animal favorito - Form</title>
+<style>
+body { font-family: Arial, sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; }
+.card { border-radius:8px; padding:24px; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+</style>
+</head>
+<body>
+<div class="card">
+<h1>¿Cuál es tu animal favorito?</h1>
+<form action="/submit" method="post">
+<input type="text" name="animal" placeholder="Ej: Perro" required />
+<button type="submit">Enviar</button>
+</form>
+</div>
+</body>
+</html>
